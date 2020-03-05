@@ -36,6 +36,7 @@
         "subtxt1": "",
         "subtxt2": "",
         "description": "Programming Skills",
+        "itemswithtitle": [],
         "listitems": [],
         "wrapitems": [],
         "graphitems": []
@@ -46,6 +47,7 @@
         "subtxt1": "Anna University, Chennai - India",
         "subtxt2": "06/2002 - 04/2006",
         "description": "",
+        "itemswithtitle": [],
         "listitems": [],
         "wrapitems": [],
         "graphitems": []
@@ -56,6 +58,7 @@
         "subtxt1": "",
         "subtxt2": "",
         "description": "",
+        "itemswithtitle": [],
         "listitems": [{
             "text": "Showcased my chatbot to our CIO & GBO Head(Christian KLEIN)"
         },
@@ -75,6 +78,7 @@
         "subtxt1": "Have an detailed hands-on experience on the following concepts.",
         "subtxt2": "",
         "description": "",
+        "itemswithtitle": [],
         "listitems": [],
         "wrapitems": ["Cloud Foundry", "Machine Learning", "Deep Learning - Intermediate", "NLP", "CHATBOT - Design & Developement", "AMDP Prodcedures", "SQL/NO-SQL DB",
         "SAP Cloud Platform Services", "SAP Data Intelligence", "SAP Datahub", "SAPUI5", "Angular JS", "Node JS", "Electron", 
@@ -87,10 +91,67 @@
         "subtxt1": "Spot Awards & Best Employee",
         "subtxt2": "Every Year minimum 1 award",
         "description": "",
+        "itemswithtitle": [],
         "listitems": [],
         "wrapitems": [],
         "graphitems": []
-    }]
+    },
+    {
+        "title": "SOFT SKILLS",
+        "subtitle": "", 
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "",
+        "itemswithtitle": [],
+        "listitems": [],
+        "wrapitems": ["Presentation", "Effective Communication"],
+        "graphitems": []
+    },
+    {
+        "title": "CERTIFICATES",
+        "subtitle": "", 
+        "subtxt1": "Sap XI Certified Consultant",
+        "subtxt2": "Certification ON 04/2007",
+        "description": "",
+        "itemswithtitle": [],
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": []
+    },
+    {
+        "title": "Part-time Projects",
+        "subtitle": "", 
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "",
+        "itemswithtitle":[{
+            "title": "IOT - Motion capture",
+            "text": "Motion Capture with HCP and OneDrive. Trigger is based on motion in a room., which will be sent to OneDRIVE and HCP."
+        },
+        {
+            "title": "IOT - Lights Controller",
+            "text": "Home Automation - Remote Lights Controller using SAP Cloud Platform."
+        },
+        {
+            "title": "NaaS- Notification as a Service",
+            "text": "Started as a personal project to send PUSH notifications to UI clients and Implementing in our Team now."
+        }],
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": []
+    },
+    {
+        "title": "Languages",
+        "subtitle": "", 
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "",
+        "itemswithtitle": [],
+        "listitems": [],
+        "wrapitems": ["English", "Detusch", "Tamil"],
+        "graphitems": []
+    }
+]
     
 
 }

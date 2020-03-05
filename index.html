@@ -105,6 +105,16 @@
                         {{ ots.description }}
                     </span>
 
+                    <div class="titleitemsbox" ng-if="ots.itemswithtitle.length > 0">
+                        <div class="mt-1" ng-repeat=" iwt in ots.itemswithtitle track by $index">
+                            <span class="sec-sub-title-2">
+                                {{ iwt.title }}
+                            </span>
+                            <p class="small">{{ iwt.text }}</p>
+                        </div>   
+                        
+                    </div>
+
                     <div class="listbox" ng-if="ots.listitems.length > 0">
                         <ul>
                             <li ng-repeat=" itm in ots.listitems" ng-bind-html-unsafe="itm.text">
@@ -118,12 +128,10 @@
                         <canvas id="myChart"></canvas>
                     </div>
 
-                    <div ng-if="ots.wrapitems.length > 0">
-                        <div class="wraptextbox pb-3">
+                    <div class="wraptextbox  pb-3" ng-if="ots.wrapitems.length > 0">                      
                             <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
                                 {{ wt }}
-                            </div>
-                        </div>
+                            </div>                      
                     </div>
                 </div>
             </div>

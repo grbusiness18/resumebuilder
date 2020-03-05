@@ -71,8 +71,10 @@ img {
     font-weight: bolder;
 }
 
+
 .wraptextbox{    
     float: left;
+    width: 100%;
 }
 
 .wrapitem{
@@ -82,4 +84,11 @@ img {
     font-size: x-small;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.sec-sub-title-2{
+    font-size: small;
+    display: block;    
+    font-weight: bold;
+    color: grey;
 }
