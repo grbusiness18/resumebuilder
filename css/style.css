@@ -1,0 +1,85 @@
+img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#shortcuts{
+    background-color: #800060;
+    color: white;
+    font-size: smaller;    
+}
+
+.section-title{
+    color: #800060;
+    font-weight: bold;
+}
+
+.sec-title{
+    font-weight: bolder;
+    font-size: larger;
+    display: block;
+}
+
+.sec-subtitle{
+    font-weight: bold;
+    font-size: small;
+    display: block;
+    color: grey
+}
+
+.sec-subtxt1{
+    font-size: small;
+    display: block;
+    color: grey    
+}
+
+.sec-subtxt2{
+    font-size: x-small;
+    display: block;
+    color: grey    
+}
+
+.sec-firma{
+    font-size: small;
+    display: block;    
+    font-weight: 300; 
+    color: grey;
+}
+.sec-range{
+    font-size: x-small;
+    display: block;
+    font-style: italic;
+}
+
+.desc-box{
+    font-size: x-small;
+    display: block;
+    font-style: italic;
+}
+
+.listbox{
+    font-size: small;    
+}
+
+.listbox ul {
+    list-style: none;
+  }
+
+.listbox ul li::before{
+    color: #800060;    
+    content: "\2022";
+    font-weight: bolder;
+}
+
+.wraptextbox{    
+    float: left;
+}
+
+.wrapitem{
+    display: inline-block;
+    background-color: #800060;
+    color: #ffffff;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 5px;
+}

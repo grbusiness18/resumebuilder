@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Resume Builder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js">
+    </script>
+
+
+</head>
+
+<body ng-app="app" ng-controller="appcontroller">
+    <div class="container-fluid" #header>
+        <div class="row">
+            <div class="col-sm text-center">
+                <img class="mt-3" src="https://www.yoga-vidya.de/Bilder/Galerien/laxmi01.jpg" alt="Smiley face"
+                    width="200" height="180">
+            </div>
+            <div class="col-9">
+                <h2>
+                    {{ data.name }}
+                </h2>
+                <h6 class="text-secondary">
+                    {{ data.role }}
+                </h6>
+                <p class="small">
+                    {{ data.aboutme }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border" id="shortcuts">
+        <div class="row p-2">
+            <div class="col-sm">
+                <i class="fas fa-envelope"></i> <span class="ml-1">{{data.contact.mail}}</span>
+            </div>
+            <div class="col-sm">
+                <i class="fas fa-mobile-alt"></i> <span class="ml-1">{{data.contact.mobile}}</span>
+            </div>
+            <div class="col-sm">
+                <i class="fas fa-at"></i> <span class="ml-1">{{data.contact.twitter}}</span>
+            </div>
+            <div class="col-sm">
+                <i class="fas fa-map-marker-alt"></i> <span class="ml-1">{{data.contact.location}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3" id="mainbox">
+        <div class="row">
+            <div class="col-sm">
+                <h6 class="section-title"> WORK EXPERIENCES</h6>
+                <div class="experience" ng-repeat="we in data.workexperiences">
+                    <span class="sec-title">
+                        {{ we.title }}
+                    </span>
+                    <span class="sec-subtitle">
+                        {{ we.subtitle }}
+                    </span>
+                    <span class="sec-firma">
+                        {{ we.company }}
+                    </span>
+                    <span class="sec-range">
+                        {{ we.duration }}
+                    </span>
+                    <span class="desc-box">
+                        {{ we.description }}
+                    </span>
+                    <div class="listbox mt-1">
+                        <ul>
+                            <li ng-repeat=" exp in we.items" ng-bind-html-unsafe="exp.text">
+                                {{ exp.text }}
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- other block -->
+            <div class="col-sm">
+                <div class="otherskills mb-3" ng-repeat="ots in data.otherskills; ">
+                    <h6 class="section-title">{{ ots.title }}</h6>
+                    <span class="sec-title">
+                        {{ ots.subtitle }}
+                    </span>
+                    <span class="sec-subtxt1">
+                        {{ ots.subtxt1 }}
+                    </span>
+                    <span class="sec-subtxt2">
+                        {{ ots.subtxt2 }}
+                    </span>
+
+                    <span class="desc-box">
+                        {{ ots.description }}
+                    </span>
+
+                    <div class="listbox" ng-if="ots.listitems.length > 0">
+                        <ul>
+                            <li ng-repeat=" itm in ots.listitems" ng-bind-html-unsafe="itm.text">
+                                {{ itm.text }}
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="graphbox" ng-if="ots.graphitems.length > 0">
+                        <canvas id="myChart"></canvas>
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                    <div ng-if="ots.wrapitems.length > 0">
+                        <div class="wraptextbox pb-3">
+                            <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
+                                {{ wt }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function genGraph() {
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'horizontalBar',
+
+            // The data for our dataset
+            data: {
+                labels: ['ABAP', 'Javascript', 'Python', 'HTML/5', 'CSS/3', 'VBScripts',
+                    'Java', 'Go', 'Shell Script', 'SCALA', 'SQL', ''
+                ],
+                datasets: [{
+                    label: 'Programming Skills',
+                    backgroundColor: '#ffb3ec',
+                    borderColor: '#fff',
+                    data: [5, 5, 5, 4, 4, 4, 2, 3, 2, 2, 3, 0]
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }]
+                }
+            }
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+        console.log(window.$scope);
+
+    });
+</script>
+
+<script src="js/app_controller.js"></script>
+
+
+</html>

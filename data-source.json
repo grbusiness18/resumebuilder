@@ -1,0 +1,96 @@
+{
+    "name": "Gokulraj Ramdass",
+    "role": "IT Technology Principal Consultant",
+    "aboutme": "Over 10+ years of progressive experience in various roles involving application development and applications Build + RUN management on OnPremise and OnDemand technologies. Started as a support consultant and progressed to an Analyst and then to Consultant, Solution Architect and acting as a liaison between business, development and test teams and leading projects through successful implementation. Possess outstanding analytical and communication skills. Possess excellent presentation and very strong technical skills. Go-getter and a very quick learner delivering fast and high quality reliable results. Experiences with firms in the sales domain have built a strong business background, which coupled with my technology foundation help effectively understand the business and bridge the gap between business and technology.",
+    "contact": {
+        "mail": "gokulraj.ramdass@gmail.com",
+        "mobile": "+49 15162345241",
+        "location": "Wiesloch - Germany",
+        "twitter": "GokulrajRamdass"
+    },
+    "workexperiences": [{
+        "title": "IT Technology Principal Consultant",
+        "subtitle": "SAP IT Go-To-Market Sales", 
+        "company": "Sap SE",
+        "duration": "01/2018 - Present",
+        "description": "Major Achievements / Highlights",
+        "items": [{
+            "text": "Designed and developed Product Recommendations for Account Executives based on past history with ML algorithms."
+        },{
+            "text": "Designed and developed NLP( Natural Language Processing) Parser for Intent and Entity Classification."
+        },
+        {
+            "text": "Architecture Design and developed ChatBOT single handedly under code name SEDA( Sales Expert Digital Assistant) integrated with SLACK to showcase DEALMotion in Mobile."
+        },
+        {
+            "text": "Developed ChatBOT called 'Harmony Assistant' under CoPilot for the SALES Executives esp. AEs."
+        },
+        {
+            "text": "Designed and developed Generic Push Notification as a Service (NaaS)."
+        }]
+    }],
+
+    "otherskills":[{
+        "title": "SKILLS",
+        "subtitle": "", 
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "Programming Skills",
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": []
+    },
+    {
+        "title": "EDUCATION",
+        "subtitle": "Bachelor of Technology - Information Technology", 
+        "subtxt1": "Anna University, Chennai - India",
+        "subtxt2": "06/2002 - 04/2006",
+        "description": "",
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": []
+    },
+    {
+        "title": "HIGHLIGHTS",
+        "subtitle": "", 
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "",
+        "listitems": [{
+            "text": "Showcased my chatbot to our CIO & GBO Head(Christian KLEIN)"
+        },
+        {
+            "text": "Built a complete UI5 - Hybris App in one day in Hybris Hackathon using YaaS market services."
+        },
+        {
+            "text": "Built an Intent Classification using CNN and complete rule based Entity Classification."            
+        }
+    ],
+        "wrapitems": [],
+        "graphitems": []
+    },
+    {
+        "title": "CONCEPTS / FRAMEWORKS",
+        "subtitle": "", 
+        "subtxt1": "Have an detailed hands-on experience on the following concepts.",
+        "subtxt2": "",
+        "description": "",
+        "listitems": [],
+        "wrapitems": ["Cloud Foundry", "Machine Learning", "Deep Learning - Intermediate", "NLP", "CHATBOT - Design & Developement", "AMDP Prodcedures", "SQL/NO-SQL DB",
+        "SAP Cloud Platform Services", "SAP Data Intelligence", "SAP Datahub", "SAPUI5", "Angular JS", "Node JS", "Electron", 
+    "Bootstrap/4"],
+        "graphitems": []
+    },
+    {
+        "title": "HONOR AWARDS",
+        "subtitle": "", 
+        "subtxt1": "Spot Awards & Best Employee",
+        "subtxt2": "Every Year minimum 1 award",
+        "description": "",
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": []
+    }]
+    
+
+}
