@@ -13,7 +13,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     </script>
 
 
@@ -23,8 +23,7 @@
     <div class="container-fluid" #header>
         <div class="row">
             <div class="col-sm text-center">
-                <img class="mt-3" src="https://www.yoga-vidya.de/Bilder/Galerien/laxmi01.jpg" alt="Smiley face"
-                    width="200" height="180">
+                <img class="mt-3" src="img/me.png" alt="Smiley face" width="200" height="180">
             </div>
             <div class="col-9">
                 <h2>
@@ -89,6 +88,13 @@
 
             <!-- other block -->
             <div class="col-sm">
+                <div class="otherskills mb-3">
+                    <h6 class="section-title"> Programming Skills</h6>
+                    <span class="sec-subtxt2">
+                        List of programming languages.
+                    </span>
+                    <canvas id="myChart"></canvas>
+                </div>
                 <div class="otherskills mb-3" ng-repeat="ots in data.otherskills; ">
                     <h6 class="section-title">{{ ots.title }}</h6>
                     <span class="sec-title">
@@ -111,8 +117,27 @@
                                 {{ iwt.title }}
                             </span>
                             <p class="small">{{ iwt.text }}</p>
-                        </div>   
-                        
+                        </div>
+                    </div>
+
+                    <div class="numberitembox" ng-if="ots.tileitems.length > 0">
+                        <div class="container-fluid" ng-repeat=" ti in ots.tileitems track by $index">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="vertical-center">
+                                        <span class="big-number">{{ ti.count }}</span>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="mt-1" ng-repeat=" iwt in ti.items track by $index">
+                                        <span class="sec-sub-title-2">
+                                            {{ iwt.title }}
+                                        </span>
+                                        <p class="small">{{ iwt.text }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="listbox" ng-if="ots.listitems.length > 0">
@@ -124,14 +149,13 @@
                     </div>
 
                     <div class="graphbox" ng-if="ots.graphitems.length > 0">
-                        <canvas id="myChart"></canvas>
-                        <canvas id="myChart"></canvas>
+
                     </div>
 
-                    <div class="wraptextbox  pb-3" ng-if="ots.wrapitems.length > 0">                      
-                            <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
-                                {{ wt }}
-                            </div>                      
+                    <div class="wraptextbox  pb-3" ng-if="ots.wrapitems.length > 0">
+                        <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
+                            {{ wt }}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,48 +163,41 @@
     </div>
 </body>
 
-<script>
-    function genGraph() {
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var chart = new Chart(ctx, {
-            // The type of chart we want to create
-            type: 'horizontalBar',
+<script src="js/app_controller.js"></script>
 
-            // The data for our dataset
-            data: {
-                labels: ['ABAP', 'Javascript', 'Python', 'HTML/5', 'CSS/3', 'VBScripts',
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'horizontalBar',
+
+        // The data for our dataset
+        data: {
+            labels: ['ABAP', 'Javascript', 'Python', 'HTML/5', 'CSS/3', 'VBScripts',
                     'Java', 'Go', 'Shell Script', 'SCALA', 'SQL', ''
                 ],
-                datasets: [{
-                    label: 'Programming Skills',
-                    backgroundColor: '#ffb3ec',
-                    borderColor: '#fff',
-                    data: [5, 5, 5, 4, 4, 4, 2, 3, 2, 2, 3, 0]
+            datasets: [{
+                label: 'Programming Languages',
+                backgroundColor: '#ffb3ec',
+                borderColor: '#fff',
+                data: [5, 5, 5, 4, 4, 4, 2, 3, 2, 2, 3, 0]
+            }]
+        },
+
+        // Configuration options go here
+        options: {
+            scales: {
+                xAxes: [{
+                    ticks: {
+                        stepSize: 1
+                    }
                 }]
-            },
-
-            // Configuration options go here
-            options: {
-                scales: {
-                    xAxes: [{
-                        ticks: {
-                            stepSize: 1
-                        }
-                    }]
-                }
             }
-        });
-    }
-</script>
-
-<script>
-    $(document).ready(function () {
-        console.log(window.$scope);
-
+        }
     });
 </script>
 
-<script src="js/app_controller.js"></script>
+
 
 
 </html>

@@ -8,150 +8,293 @@
         "location": "Wiesloch - Germany",
         "twitter": "GokulrajRamdass"
     },
-    "workexperiences": [{
-        "title": "IT Technology Principal Consultant",
-        "subtitle": "SAP IT Go-To-Market Sales", 
-        "company": "Sap SE",
-        "duration": "01/2018 - Present",
-        "description": "Major Achievements / Highlights",
-        "items": [{
-            "text": "Designed and developed Product Recommendations for Account Executives based on past history with ML algorithms."
-        },{
-            "text": "Designed and developed NLP( Natural Language Processing) Parser for Intent and Entity Classification."
+    "workexperiences": [
+        {
+            "title": "IT Technology Principal Consultant",
+            "subtitle": "SAP IT Go-To-Market Sales",
+            "company": "Sap SE",
+            "duration": "01/2018 - Present",
+            "description": "Major Achievements / Highlights",
+            "items": [
+                {
+                    "text": "Designed and developed Product Recommendations for Account Executives based on past history with ML algorithms."
+                },
+                {
+                    "text": "Designed and developed NLP( Natural Language Processing) Parser for Intent and Entity Classification."
+                },
+                {
+                    "text": "Architecture Design and developed ChatBOT single handedly under code name SEDA( Sales Expert Digital Assistant) integrated with SLACK to showcase DEALMotion in Mobile."
+                },
+                {
+                    "text": "Developed ChatBOT called 'Harmony Assistant' under CoPilot for the SALES Executives esp. AEs."
+                },
+                {
+                    "text": "Designed and developed Generic Push Notification as a Service (NaaS)."
+                }
+            ]
         },
         {
-            "text": "Architecture Design and developed ChatBOT single handedly under code name SEDA( Sales Expert Digital Assistant) integrated with SLACK to showcase DEALMotion in Mobile."
+            "title": "IT Technology Senior Consultant",
+            "subtitle": "SAP IT Go-To-Market Sales & Order to Cash",
+            "company": "Sap SE",
+            "duration": "01/2014 - 12/2017",
+            "description": "Major Achievements / Highlights",
+            "items": [
+                {
+                    "text": "Enabled HANA based reporting solutions to provide business with data on the go."
+                },
+                {
+                    "text": "Performance optimization done across the process to improve the solutions based on HANA."
+                },
+                {
+                    "text": "Designed & Developed Framework in CRM for CALLIDUS integration for CPQ in SALES."
+                },
+                {
+                    "text": "Designed & Developed Framework for almost all Merger and Acquisitions to integrate with CRM for order processing."
+                },
+                {
+                    "text": "Designed & Developed tools to monitor the performance of STAFFING LIST replication between CRM and ERP to support various SAP Internal Service Process."
+                },
+                {
+                    "text": "PoC in Hybris YaaS for Deal Qualification."
+                },
+                {
+                    "text": "Designed and Build UI5 Application tool for O2C Business & Shared Services on Resource Allocations."
+                },
+                {
+                    "text": "Developed Framework for Connecting PRM & CRM systems to enable complex SALES Process for Partners within IT."
+                },
+                {
+                    "text": "Developed PoC on Hybris YaaS for Loyalty Management."
+                },
+                {
+                    "text": "24 hour application built Hybris Yaas with Ui5 for HackFest."
+                }
+            ]
         },
         {
-            "text": "Developed ChatBOT called 'Harmony Assistant' under CoPilot for the SALES Executives esp. AEs."
+            "title": "IT Technology Consultant",
+            "subtitle": "SAP IT Order to Cash",
+            "company": "Sap SE",
+            "duration": "06/2012 - 12/2013",
+            "description": "Major Achievements / Highlights",
+            "items": [
+                {
+                    "text": "As a order2cash process expert, my responsibility was to integrate the Travel on Demand with processes without affecting the existing ERP Invoice solution to its customer.Since the internal business also affects many other internal processes like Invoice layout / eBilling / Idocs, the solution was designed to adapt them all but it was a real challenge.SAP has its flexible billing policy for customers and some countries, adapting them was also challenge to keeping the existing process in sync."
+                },
+                {
+                    "text": "Performed deep dive analysis in ERP billing to do the draft design for the integration of TEAR to ERP."
+                },
+                {
+                    "text": "Successfully done the global roll out of Travel on Demand across 30+ countries."
+                },
+                {
+                    "text": "Acted as AGS’s single point of contact + Subject Matter Expert in this area within SAP."
+                }
+            ]
         },
         {
-            "text": "Designed and developed Generic Push Notification as a Service (NaaS)."
-        }]
-    }],
-
-    "otherskills":[{
-        "title": "SKILLS",
-        "subtitle": "", 
-        "subtxt1": "",
-        "subtxt2": "",
-        "description": "Programming Skills",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "EDUCATION",
-        "subtitle": "Bachelor of Technology - Information Technology", 
-        "subtxt1": "Anna University, Chennai - India",
-        "subtxt2": "06/2002 - 04/2006",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "HIGHLIGHTS",
-        "subtitle": "", 
-        "subtxt1": "",
-        "subtxt2": "",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [{
-            "text": "Showcased my chatbot to our CIO & GBO Head(Christian KLEIN)"
-        },
-        {
-            "text": "Built a complete UI5 - Hybris App in one day in Hybris Hackathon using YaaS market services."
-        },
-        {
-            "text": "Built an Intent Classification using CNN and complete rule based Entity Classification."            
+            "title": "Associate Consultant",
+            "subtitle": "Contracts & Billing Management",
+            "company": "Tata Consultancy Services Ltd.",
+            "duration": "02/2007 - 04/2012",
+            "description": "Major Achievements / Highlights",
+            "items": [
+                {
+                    "text": "Supporting Level 2 and SME level support SAP IT internal Sales Process Issues."
+                },
+                {
+                    "text": "Enabled almost many company codes / sales org / sales process setup in SAP SD for MA."
+                },
+                {
+                    "text": "Defined Profile / Roles for SALES Process."
+                },
+                {
+                    "text": "Developed REPORTs to automate the SALES process. Example.. enabling SD setup + Invoice setup."
+                },
+                {
+                    "text": "Backend Support Learning Solution for SAP."
+                },
+                {
+                    "text": "Quality Administrator using SOLMAN."
+                },
+                {
+                    "text": "Business Process Document Manager."
+                },
+                {
+                    "text": "Backend Support for Activity Management and Travel for SAP."
+                }
+            ]
         }
     ],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "CONCEPTS / FRAMEWORKS",
-        "subtitle": "", 
-        "subtxt1": "Have an detailed hands-on experience on the following concepts.",
-        "subtxt2": "",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": ["Cloud Foundry", "Machine Learning", "Deep Learning - Intermediate", "NLP", "CHATBOT - Design & Developement", "AMDP Prodcedures", "SQL/NO-SQL DB",
-        "SAP Cloud Platform Services", "SAP Data Intelligence", "SAP Datahub", "SAPUI5", "Angular JS", "Node JS", "Electron", 
-    "Bootstrap/4"],
-        "graphitems": []
-    },
-    {
-        "title": "HONOR AWARDS",
-        "subtitle": "", 
-        "subtxt1": "Spot Awards & Best Employee",
-        "subtxt2": "Every Year minimum 1 award",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "SOFT SKILLS",
-        "subtitle": "", 
-        "subtxt1": "",
-        "subtxt2": "",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": ["Presentation", "Effective Communication"],
-        "graphitems": []
-    },
-    {
-        "title": "CERTIFICATES",
-        "subtitle": "", 
-        "subtxt1": "Sap XI Certified Consultant",
-        "subtxt2": "Certification ON 04/2007",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "Part-time Projects",
-        "subtitle": "", 
-        "subtxt1": "",
-        "subtxt2": "",
-        "description": "",
-        "itemswithtitle":[{
-            "title": "IOT - Motion capture",
-            "text": "Motion Capture with HCP and OneDrive. Trigger is based on motion in a room., which will be sent to OneDRIVE and HCP."
+    "otherskills": [        
+        {
+            "title": "IDF",
+            "subtitle": "",
+            "subtxt1": "",
+            "subtxt2": "",
+            "description": "Number of IDF's filled",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": [
+                {
+                    "count": 2,
+                    "items": [
+                        {
+                            "title": "CAML",
+                            "text": "Conversational Auto Machine Learning Platform."
+                        },
+                        {
+                            "title": "GAPIO",
+                            "text": "Generic Application Programming Interface Orchestrator."
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "title": "IOT - Lights Controller",
-            "text": "Home Automation - Remote Lights Controller using SAP Cloud Platform."
+            "title": "EDUCATION",
+            "subtitle": "Bachelor of Technology - Information Technology",
+            "subtxt1": "Anna University, Chennai - India",
+            "subtxt2": "06/2002 - 04/2006",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": []
         },
         {
-            "title": "NaaS- Notification as a Service",
-            "text": "Started as a personal project to send PUSH notifications to UI clients and Implementing in our Team now."
-        }],
-        "listitems": [],
-        "wrapitems": [],
-        "graphitems": []
-    },
-    {
-        "title": "Languages",
-        "subtitle": "", 
-        "subtxt1": "",
-        "subtxt2": "",
-        "description": "",
-        "itemswithtitle": [],
-        "listitems": [],
-        "wrapitems": ["English", "Detusch", "Tamil"],
-        "graphitems": []
-    }
-]
-    
-
+            "title": "HIGHLIGHTS",
+            "subtitle": "",
+            "subtxt1": "",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [
+                {
+                    "text": "Showcased my chatbot to our CIO & GBO Head(Christian KLEIN)"
+                },
+                {
+                    "text": "Built a complete UI5 - Hybris App in one day in Hybris Hackathon using YaaS market services."
+                },
+                {
+                    "text": "Built an Intent Classification using CNN and complete rule based Entity Classification."
+                }
+            ],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "CONCEPTS / FRAMEWORKS",
+            "subtitle": "",
+            "subtxt1": "Have an detailed hands-on experience on the following concepts.",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [
+                "Cloud Foundry",
+                "Machine Learning",
+                "Deep Learning - Intermediate",
+                "NLP",
+                "CHATBOT - Design & Developement",
+                "AMDP Prodcedures",
+                "SQL/NO-SQL DB",
+                "SAP Cloud Platform Services",
+                "SAP Data Intelligence",
+                "SAP Datahub",
+                "SAPUI5",
+                "Angular JS",
+                "Node JS",
+                "Electron",
+                "Bootstrap/4"
+            ],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "HONOR AWARDS",
+            "subtitle": "",
+            "subtxt1": "Spot Awards & Best Employee",
+            "subtxt2": "Every Year minimum 1 award",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "SOFT SKILLS",
+            "subtitle": "",
+            "subtxt1": "",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [
+                "Presentation",
+                "Effective Communication"
+            ],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "CERTIFICATES",
+            "subtitle": "",
+            "subtxt1": "Sap XI Certified Consultant",
+            "subtxt2": "Certification ON 04/2007",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "Part-time Projects",
+            "subtitle": "",
+            "subtxt1": "",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [
+                {
+                    "title": "IOT - Motion capture",
+                    "text": "Motion Capture with HCP and OneDrive. Trigger is based on motion in a room., which will be sent to OneDRIVE and HCP."
+                },
+                {
+                    "title": "IOT - Lights Controller",
+                    "text": "Home Automation - Remote Lights Controller using SAP Cloud Platform."
+                },
+                {
+                    "title": "NaaS- Notification as a Service",
+                    "text": "Started as a personal project to send PUSH notifications to UI clients and Implementing in our Team now."
+                }
+            ],
+            "listitems": [],
+            "wrapitems": [],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "Languages",
+            "subtitle": "",
+            "subtxt1": "",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [
+                "English",
+                "Detusch",
+                "Tamil"
+            ],
+            "graphitems": [],
+            "tileitems": []
+        }
+    ]
 }
