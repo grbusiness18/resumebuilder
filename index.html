@@ -88,14 +88,14 @@
 
             <!-- other block -->
             <div class="col-sm">
-                <div class="otherskills mb-3">
+                <div class="otherskills mb-3 pb-2 border-bottom">
                     <h6 class="section-title"> Programming Skills</h6>
                     <span class="sec-subtxt2">
                         List of programming languages.
                     </span>
                     <canvas id="myChart"></canvas>
                 </div>
-                <div class="otherskills mb-3" ng-repeat="ots in data.otherskills; ">
+                <div class="otherskills mb-3 pb-2" ng-repeat="ots in data.otherskills; ">
                     <h6 class="section-title">{{ ots.title }}</h6>
                     <span class="sec-title">
                         {{ ots.subtitle }}
@@ -157,6 +157,7 @@
                             {{ wt }}
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </div>
@@ -173,9 +174,9 @@
 
         // The data for our dataset
         data: {
-            labels: ['ABAP', 'Javascript', 'Python', 'HTML/5', 'CSS/3', 'VBScripts',
-                    'Java', 'Go', 'Shell Script', 'SCALA', 'SQL', ''
-                ],
+            labels: ['ABAP', 'Javascript', 'Python', 'HTML/5', 'CSS/3', 'VB Scripts',
+                'Java', 'Go', 'Shell Script', 'SCALA', 'SQL', ''
+            ],
             datasets: [{
                 label: 'Programming Languages',
                 backgroundColor: '#ffb3ec',
