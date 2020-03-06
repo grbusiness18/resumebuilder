@@ -26,11 +26,11 @@
                 <img class="mt-3" src="img/me.png" alt="Smiley face" width="200" height="180">
             </div>
             <div class="col-9">
-                <h2>
+                <h2 class="text-shadow">
                     {{ data.name }}
                 </h2>
                 <h6 class="text-secondary">
-                    {{ data.role }}
+                    <b>{{ data.role }}</b>
                 </h6>
                 <p class="small">
                     {{ data.aboutme }}
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid border" id="shortcuts">
+    <div class="container-fluid ribbon" id="shortcuts">
         <div class="row p-2">
             <div class="col-sm">
                 <i class="fas fa-envelope"></i> <span class="ml-1">{{data.contact.mail}}</span>
@@ -82,8 +82,73 @@
                             </li>
 
                         </ul>
-                    </div>
+                    </div>                 
                 </div>
+
+                <div class="otherskills mb-3 pb-2" ng-repeat="ots in data.otherskills2; ">
+                    <h6 class="section-title">{{ ots.title }}</h6>
+                    <span class="sec-title">
+                        {{ ots.subtitle }}
+                    </span>
+                    <span class="sec-subtxt1">
+                        {{ ots.subtxt1 }}
+                    </span>
+                    <span class="sec-subtxt2">
+                        {{ ots.subtxt2 }}
+                    </span>
+
+                    <span class="desc-box">
+                        {{ ots.description }}
+                    </span>
+
+                    <div class="titleitemsbox" ng-if="ots.itemswithtitle.length > 0">
+                        <div class="mt-1" ng-repeat=" iwt in ots.itemswithtitle track by $index">
+                            <span class="sec-sub-title-2">
+                                {{ iwt.title }}
+                            </span>
+                            <p class="small">{{ iwt.text }}</p>
+                        </div>
+                    </div>
+
+                    <div class="numberitembox" ng-if="ots.tileitems.length > 0">
+                        <div class="container-fluid" ng-repeat=" ti in ots.tileitems track by $index">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="vertical-center">
+                                        <span class="big-number">{{ ti.count }}</span>
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="mt-1" ng-repeat=" iwt in ti.items track by $index">
+                                        <span class="sec-sub-title-2">
+                                            {{ iwt.title }}
+                                        </span>
+                                        <p class="small">{{ iwt.text }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="listbox" ng-if="ots.listitems.length > 0">
+                        <ul>
+                            <li ng-repeat=" itm in ots.listitems" ng-bind-html-unsafe="itm.text">
+                                {{ itm.text }}
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="graphbox" ng-if="ots.graphitems.length > 0">
+
+                    </div>
+
+                    <div class="wraptextbox  pb-3" ng-if="ots.wrapitems.length > 0">
+                        <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
+                            {{ wt }}
+                        </div>
+                    </div>                   
+                </div>
+                
             </div>
 
             <!-- other block -->
@@ -156,8 +221,7 @@
                         <div class="ml-2 mt-2 p-2 wrapitem" ng-repeat=" wt in ots.wrapitems track by $index">
                             {{ wt }}
                         </div>
-                    </div>
-                   
+                    </div>                   
                 </div>
             </div>
         </div>

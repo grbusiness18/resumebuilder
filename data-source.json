@@ -129,7 +129,7 @@
     ],
     "otherskills": [        
         {
-            "title": "Patent",
+            "title": "Patents",
             "subtitle": "",
             "subtxt1": "",
             "subtxt2": "",
@@ -211,7 +211,29 @@
                 "Angular JS",
                 "Node JS",
                 "Electron",
-                "Bootstrap/4"
+                "Bootstrap/4",
+                "REST API", 
+                "ODATA API",
+                "NGINX"                
+            ],
+            "graphitems": [],
+            "tileitems": []
+        },
+        {
+            "title": "Cloud / Container Techs",
+            "subtitle": "",
+            "subtxt1": "Have an detailed hands-on experience on the following concepts.",
+            "subtxt2": "",
+            "description": "",
+            "itemswithtitle": [],
+            "listitems": [],
+            "wrapitems": [
+                "Kubernetes",
+                "Docker",
+                "AWS",
+                "Azure",
+                "Alibaba",
+                "GCP - Only Theory"
             ],
             "graphitems": [],
             "tileitems": []
@@ -256,31 +278,23 @@
             "tileitems": []
         },
         {
-            "title": "Part-time Projects",
+            "title": "Fellowships / Trainings / Workshops / Hackathons",
             "subtitle": "",
             "subtxt1": "",
             "subtxt2": "",
             "description": "",
             "itemswithtitle": [
                 {
-                    "title": "IOT - Motion capture",
-                    "text": "Motion Capture with HCP and OneDrive. Trigger is based on motion in a room., which will be sent to OneDRIVE and HCP."
-                },
-                {
-                    "title": "IOT - Lights Controller",
-                    "text": "Home Automation - Remote Lights Controller using SAP Cloud Platform."
-                },
-                {
-                    "title": "NaaS- Notification as a Service",
-                    "text": "Started as a personal project to send PUSH notifications to UI clients and Implementing in our Team now."
-                }
+                    "title": "Sap Data Intelligence",
+                    "text": "Completed 6 Months fellowship in SAP DI. In my tenure., i was trained in SAP DI to build, train and test text classification service."
+                }                
             ],
             "listitems": [],
             "wrapitems": [],
             "graphitems": [],
             "tileitems": []
         },
-        {
+       {
             "title": "Languages",
             "subtitle": "",
             "subtxt1": "",
@@ -296,5 +310,30 @@
             "graphitems": [],
             "tileitems": []
         }
-    ]
+    ],
+    "otherskills2": [{
+        "title": "Part-time Projects",
+        "subtitle": "",
+        "subtxt1": "",
+        "subtxt2": "",
+        "description": "",
+        "itemswithtitle": [
+            {
+                "title": "IOT - Motion capture",
+                "text": "Motion Capture with HCP and OneDrive. Trigger is based on motion in a room., which will be sent to OneDRIVE and HCP."
+            },
+            {
+                "title": "IOT - Lights Controller",
+                "text": "Home Automation - Remote Lights Controller using SAP Cloud Platform."
+            },
+            {
+                "title": "NaaS- Notification as a Service",
+                "text": "Started as a personal project to send PUSH notifications to UI clients and Implementing in our Team now."
+            }
+        ],
+        "listitems": [],
+        "wrapitems": [],
+        "graphitems": [],
+        "tileitems": []
+    }]
 }
